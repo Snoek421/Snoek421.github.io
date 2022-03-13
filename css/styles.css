@@ -1,0 +1,80 @@
+body{
+    margin: auto;
+    background-color:#65c96c;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#header{
+    background-color:rgba(60, 155, 65, 0.356);
+    border-radius: 3px;
+    box-shadow: 2px 2px 16px rgba(60, 155, 65, 0.356);
+}
+
+fieldset{
+    width: 450px;
+    border-color:#21429b;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 3px 3px 15px #38723c;
+}
+
+fieldset div{
+    text-align: left;
+}
+
+div{
+    padding: 15px 10px;
+}
+
+#firstDiv{
+    padding-top: 25px;
+}
+
+div input{
+    float: right;
+    border-radius: 4px;
+    height: 25px;
+}
+
+#checkout{
+    color:#ffffff;
+    background-color:#0c0c0c;
+    width: 150px;
+    height: 40px;
+}
+
+.requiredFields{
+    color: rgb(155, 12, 12);
+    font-weight: bold;
+}
+
+#warningMessage, #productWarningMessage{
+    color:rgb(184, 21, 21);
+    font-weight: bold;
+}
+
+/* start formatting for receipt page */
+
+table{
+    border: 2px solid black;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background-color: rgb(201, 247, 212);
+    padding: 15px;
+    width: 340px;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#goBackLink{
+    color:#571a42;
+    margin: 15px auto;
+    padding: 20px;
+    text-decoration:underline;
+    font-weight:bold;
+    font-size:24px;
+}

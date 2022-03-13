@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--Casey Snoek || Student number: 8799131 || Csnoek9131@conestogac.on.ca-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Casey Snoek - Assignment 2</title>
+        <script src="js/scripts.js"></script>
+    </head>
+    <body id="body">
+        <div id=header>
+            <h1>Student Garage Sale</h1>
+            <h2>Help out struggling students</h2>
+        </div>
+        <fieldset id="mainContentSection">
+            <p class="requiredFields">* marks required fields</p>
+            <p id="warningMessage"></p>
+            <div id="firstDiv">
+                <label class="requiredFields">*</label><label id="firstLabel" for="nameBox">Name:</label>
+                <input type="text" id="nameBox" name="nameBox" placeholder="First Last"/>
+            </div>
+            <div>
+                <label class="requiredFields">*</label><label for="emailAddress">Email:</label>
+                <input type="email" id="emailAddress" name="emailAddress" placeholder="email@domain.com" />
+            </div>
+            <div>
+                <label for="creditCardNumber">Credit Card Number:</label>
+                <input type="text" id="creditCardNumber" name="creditCardNumber" placeholder="xxxx-xxxx-xxxx-xxxx"/>
+            </div>
+            <div>
+                <label for="creditCardMonth">Credit Card Expiry Month:</label>
+                <input type="text" id="creditCardMonth" name="creditCardMonth" placeholder="MMM"/>
+            </div>
+            <div>
+                <label for="creditCardYear">Credit Card Expiry Year:</label>
+                <input type="text" id="creditCardYear" name="creditCardYear" placeholder="yyyy"/>
+            </div>
+            <h3>Select some items</h3>
+            <p id="productWarningMessage"></p>
+            <div>
+                <label for="product1">Number of Muffins ($3)</label>
+                <input type="text" id="product1" name="product1" placeholder="5"/>
+            </div>
+            <div>
+                <label for="product2">Number of Hats ($7)</label>
+                <input type="text" id="product2" name="product2" placeholder="5"/>
+            </div>
+            <div>
+                <label for="product3">Number of Sweaters ($17)</label>
+                <input type="text" id="product3" name="product3" placeholder="5"/>
+            </div>
+            <div>
+                <label for="product4">Number of Gloves ($5)</label>
+                <input type="text" id="product4" name="product4" placeholder="5"/>
+            </div>
+            <div>
+                <label for="product5">Number of Shiny Rocks ($10)</label>
+                <input type="text" id="product5" name="product5" placeholder="5"/>
+            </div>
+            <br>
+            <input type="button" id="checkout" value="Checkout" onclick="Checkout()"/>
+        </fieldset>
+    </body>
