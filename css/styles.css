@@ -41,8 +41,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 148, 126, 176; /*26, 188, 156*/
-  --bs-secondary-rgb: 128, 141, 142; /*44, 62, 80*/
+  --bs-primary-rgb: 66, 78, 250; /*26, 188, 156*/
+  --bs-secondary-rgb: 32, 38, 122; /*44, 62, 80*/
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #a9d2d5; /*#fff*/
+  --bs-body-bg: #8C94FB; /*#fff*/
 }
 
 *,
@@ -11500,7 +11500,7 @@ html {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #766c7f; /*2c3e50*/
+  background-color: #0F123B; /*2c3e50*/
   color: #fff;
 }
 
